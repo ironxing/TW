@@ -1,0 +1,739 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,1,-5,0,0,1,-7"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+    <Property name="useNullLayout" type="boolean" value="false"/>
+  </Layout>
+  <SubComponents>
+    <Container class="java.awt.Panel" name="pnlWish1">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="10" width="490" height="150"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="tfWishName1" min="-2" pref="93" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="tfAction12" max="32767" attributes="0"/>
+                      <Component id="tfAction13" max="32767" attributes="0"/>
+                      <Component id="tfAction11" alignment="0" max="32767" attributes="0"/>
+                      <Component id="tfAction14" alignment="0" pref="223" max="32767" attributes="0"/>
+                      <Component id="tfAction15" alignment="0" pref="223" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblActionLevel12" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblActionLevel13" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblActionLevel11" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="lblActionDegree12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblActionDegree13" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblActionDegree11" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="btnAction13" alignment="0" min="-2" pref="38" max="-2" attributes="0"/>
+                                      <Component id="btnAction12" alignment="0" min="-2" pref="38" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="btnAction11" alignment="1" min="-2" pref="38" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblActionLevel14" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblActionDegree14" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnAction14" min="-2" pref="38" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="lblActionLevel15" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblActionDegree15" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btnAction15" min="-2" pref="38" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="lblActionDegree11" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lblActionDegree12" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lblActionDegree13" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="tfAction11" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnAction11" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="lblActionLevel11" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="tfAction12" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnAction12" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="lblActionLevel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblActionLevel13" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tfAction13" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnAction13" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="tfWishName1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="tfAction15" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblActionDegree14" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblActionLevel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnAction14" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="tfAction14" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblActionDegree15" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblActionLevel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnAction15" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="java.awt.TextField" name="tfWishName1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Posture"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="BJJ"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="TKD"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Dans"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction14">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Tr&#xe4;ning"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Split"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction11">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction12">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction13">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction14">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction15">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="label1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label1"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="label2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label2"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="label3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label3"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel14">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree14">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree15">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="java.awt.Panel" name="pnlWish2">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="170" width="490" height="160"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="tfWishName2" min="-2" pref="93" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="tfAction22" alignment="0" max="32767" attributes="0"/>
+                      <Component id="tfAction23" alignment="0" max="32767" attributes="0"/>
+                      <Component id="tfAction21" alignment="0" max="32767" attributes="0"/>
+                      <Component id="tfAction24" alignment="0" pref="223" max="32767" attributes="0"/>
+                      <Component id="tfAction25" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblActionLevel22" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblActionLevel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblActionLevel21" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="lblActionDegree22" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblActionDegree23" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblActionDegree21" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="btnAction23" alignment="0" min="-2" pref="38" max="-2" attributes="0"/>
+                                      <Component id="btnAction22" alignment="0" min="-2" pref="38" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="btnAction21" alignment="1" min="-2" pref="38" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblActionLevel24" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblActionDegree24" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnAction24" min="-2" pref="38" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="lblActionLevel25" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblActionDegree25" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btnAction25" min="-2" pref="38" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="8" pref="8" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="lblActionDegree21" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblActionDegree22" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblActionDegree23" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="tfAction21" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnAction21" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="lblActionLevel21" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="tfAction22" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnAction22" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="lblActionLevel22" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="lblActionLevel23" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="tfAction23" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="btnAction23" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                              <Component id="tfWishName2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="tfAction25" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblActionDegree24" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="lblActionLevel24" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="btnAction24" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="12" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="tfAction24" alignment="1" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                          <Component id="lblActionDegree25" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblActionLevel25" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnAction25" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="java.awt.TextField" name="tfWishName2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="TW Appen"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction21">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Test project in NetBeans"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction22">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SQL server management system"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction23">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Andriod Studio"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction24">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Scrum"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction25">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="GitHub"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction21">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction22">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction23">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel21">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel22">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel23">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree21">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree22">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree23">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel24">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree24">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction24">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel25">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree25">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction25">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="java.awt.Panel" name="pnlWish3">
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+          <AbsoluteConstraints x="10" y="340" width="490" height="160"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="tfWishName3" min="-2" pref="94" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="tfAction32" alignment="0" max="32767" attributes="0"/>
+                      <Component id="tfAction33" alignment="0" max="32767" attributes="0"/>
+                      <Component id="tfAction31" alignment="0" max="32767" attributes="0"/>
+                      <Component id="tfAction34" alignment="0" pref="222" max="32767" attributes="0"/>
+                      <Component id="tfAction35" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="lblActionLevel32" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblActionLevel33" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="lblActionLevel31" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="lblActionDegree32" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="lblActionDegree33" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="lblActionDegree31" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                      <Component id="btnAction33" alignment="0" min="-2" pref="38" max="-2" attributes="0"/>
+                                      <Component id="btnAction32" alignment="0" min="-2" pref="38" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="btnAction31" alignment="1" min="-2" pref="38" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="lblActionLevel34" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblActionDegree34" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="btnAction34" min="-2" pref="38" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="lblActionLevel35" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="lblActionDegree35" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="btnAction35" min="-2" pref="38" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lblActionDegree31" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lblActionDegree32" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="lblActionDegree33" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="tfAction31" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnAction31" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="lblActionLevel31" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="tfAction32" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnAction32" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="lblActionLevel32" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="lblActionLevel33" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="tfAction33" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="btnAction33" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                                      <Component id="tfWishName3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="tfAction34" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblActionDegree34" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblActionLevel34" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnAction34" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="tfAction35" min="-2" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="lblActionDegree35" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblActionLevel35" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnAction35" alignment="0" min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="12" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="java.awt.TextField" name="tfWishName3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Svenska"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction31">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Lyssna"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction32">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Prata"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction33">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="L&#xe4;sa"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction34">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Skriva"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.TextField" name="tfAction35">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Ordf&#xf6;rr&#xe5;d"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction31">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction32">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction33">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction34">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Button" name="btnAction35">
+          <Properties>
+            <Property name="label" type="java.lang.String" value="+"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel31">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel32">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel33">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel34">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionLevel35">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree31">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree32">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree33">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree34">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+        <Component class="java.awt.Label" name="lblActionDegree35">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="label4"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
