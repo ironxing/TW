@@ -5,17 +5,22 @@
  */
 package threewishes;
 
+
+
 /**
  *
  * @author xlu
  */
 public class ThreeWishes {
 
+    private static TestTableData testTableData;
+
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        testTableData = new TestTableData();
+        testTableData.setVisible(true);
     }
-    
+
 }
