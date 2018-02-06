@@ -3,8 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package threewishes;
+package Data;
 
+import GUI.ThreeWishes;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
@@ -14,43 +15,65 @@ import java.sql.Statement;
 import java.util.Vector;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
 /**
  *
  * @author xlu
  */
-public class TestTableData extends javax.swing.JFrame {
+public class Data extends javax.swing.JFrame {
+
+    private static Statement statement;
 
     /**
      * Creates new form testTableData
      */
-    public TestTableData() {
+    public Data() {
         initComponents();
         try {
+            //Setup driver
             try {
                 Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             } catch (ClassNotFoundException ex) {
-                Logger.getLogger(TestTableData.class.getName()).log(Level.SEVERE, null, ex);
+                Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, ex);
             }
-            
-            //Create connections
+            //Skaffa connections
             String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=ThreeWishes;user=sysadm;password=123456";
             Connection connection = DriverManager.getConnection(connectionUrl);
-            Statement state = connection.createStatement();
-            
-            //Return a result set
-            ResultSet rs = state.executeQuery("SELECT * FROM Person");
+            statement = connection.createStatement();
 
+            loadTestTable();
+            loadTestTable2();
+        } catch (SQLException ex) {
+            Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    public void loadTestTable() {
+        String query = "SELECT * FROM Person";
+        passDataToTable(query, myTable);
+    }
+
+    public void loadTestTable2() {
+        String query = "SELECT PID FROM Person";
+        passDataToTable(query, tableTest2);
+    }
+
+    public static void passDataToTable(String query, JTable aTable) {
+        try {
+            //Return a result set
+            ResultSet rs = statement.executeQuery(query);
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount();
 
             //pass data into table
             DefaultTableModel dtm = new DefaultTableModel();
+
             Vector columns_name = new Vector();
             Vector data_rows = new Vector();
 
-            for (int i = 1; i < columns; i++) {
+            for (int i = 1; i <= columns; i++) {
                 columns_name.addElement(rsmetadata.getColumnName(i));
             }
 
@@ -64,10 +87,10 @@ public class TestTableData extends javax.swing.JFrame {
                 dtm.addRow(data_rows);
             }
 
-            //pass default table objec tinto my table
-            myTable.setModel(dtm);
+            //pass default table object into table
+            aTable.setModel(dtm);
         } catch (SQLException ex) {
-            Logger.getLogger(ThreeWishes.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(Data.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
@@ -82,6 +105,8 @@ public class TestTableData extends javax.swing.JFrame {
 
         jScrollPane1 = new javax.swing.JScrollPane();
         myTable = new javax.swing.JTable();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        tableTest2 = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -98,6 +123,19 @@ public class TestTableData extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(myTable);
 
+        tableTest2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null},
+                {null, null, null, null}
+            },
+            new String [] {
+                "Title 1", "Title 2", "Title 3", "Title 4"
+            }
+        ));
+        jScrollPane2.setViewportView(tableTest2);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -105,12 +143,18 @@ public class TestTableData extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 375, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(15, Short.MAX_VALUE))
+                .addContainerGap(312, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(14, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 202, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(231, 231, 231)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 275, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -135,26 +179,30 @@ public class TestTableData extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(TestTableData.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Data.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(TestTableData.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Data.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(TestTableData.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Data.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(TestTableData.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Data.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+
             public void run() {
-                new TestTableData().setVisible(true);
+                new Data().setVisible(true);
             }
         });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTable myTable;
+    private javax.swing.JTable tableTest2;
     // End of variables declaration//GEN-END:variables
 }
